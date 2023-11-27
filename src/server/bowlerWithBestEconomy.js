@@ -63,5 +63,4 @@ function findBestEconomicalBlowers(deliveries) {
   return bowlerWithBestEconomy;
 }
 
-const jsonData = require("../../deliveries.json");
-console.log(findBestEconomicalBlowers(jsonData));
+module.exports = findBestEconomicalBlowers;

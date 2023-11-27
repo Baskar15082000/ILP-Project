@@ -1,13 +1,4 @@
 //7.Find the strike rate of a batsman for each season
-function find2015Matches(matches) {
-  const idOf2015 = [];
-  matches.forEach((match) => {
-    if (match.season === "2015") {
-      idOf2015.push(match.id);
-    }
-  });
-  return idOf2015;
-}
 
 function findRunsAndBalls(deliveries) {
   const info = [];
