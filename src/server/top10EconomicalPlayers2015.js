@@ -71,8 +71,8 @@ function findTop10Economy(economy) {
 
 //finding top 10 economical blowers of 2015
 function findTop10EconomicalBlowers(matches, deliveries) {
-  const idof2015 = find2015Matches(matches);
-  const runsAndBalls = findRunsAndBalls(idof2015, deliveries);
+  const idOf2015 = find2015Matches(matches);
+  const runsAndBalls = findRunsAndBalls(idOf2015, deliveries);
   const calculateEconomy = toCalculateEconomy(runsAndBalls);
   const top10Economy = findTop10Economy(calculateEconomy);
   return top10Economy;
