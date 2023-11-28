@@ -16,6 +16,14 @@ function playerDismissed(deliveries) {
 }
 
 function highestNoOfTimePlayerDismissed(deliveries) {
+  if (
+    deliveries === null ||
+    deliveries === undefined ||
+    Object.keys(deliveries).length === 0
+  ) {
+    return {};
+  }
+
   const playerOfMatch = playerDismissed(deliveries);
   let sortedDismissed = {};
   let temp = -1;

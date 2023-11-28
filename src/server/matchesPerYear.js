@@ -1,6 +1,13 @@
 //1.Number of matches played per year for all the years in IPL.
 
 function findMatchesPerYears(matches) {
+  if (
+    matches === null ||
+    matches === undefined ||
+    Object.keys(matches).length === 0
+  ) {
+    return {};
+  }
   const ans = matches.reduce((acc, curr) => {
     //curr.season present the incrementing
     if (acc[curr.season]) {

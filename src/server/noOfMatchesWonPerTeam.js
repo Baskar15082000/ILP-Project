@@ -1,6 +1,13 @@
 //2.Number of matches won per team per year in IPL.
 
 function findNoMatchesWonByTeam(matches) {
+  if (
+    matches === null ||
+    matches === undefined ||
+    Object.keys(matches).length === 0
+  ) {
+    return {};
+  }
   const ans = {};
   matches.forEach((match) => {
     let year = match.season;

@@ -1,5 +1,12 @@
 //6.Find a player who has won the highest number of Player of the Match awards for each season
 function findAllThePlayerOfMatchAward(matches) {
+  if (
+    matches === null ||
+    matches === undefined ||
+    Object.keys(matches).length === 0
+  ) {
+    return {};
+  }
   const playerOfMatch = matches.reduce((accu, curr) => {
     if (!accu[curr.season]) {
       accu[curr.season] = {};
