@@ -11,6 +11,7 @@ test("find no of match won for given test case ", () => {
     { season: "2016", id: "1", winner: "Sunrisers Hyderabad" },
     { season: "2016", id: "2", winner: "Sunrisers Hyderabad" },
     { season: "2018", id: "4", winner: "RCB" },
+    { season: "2018", id: "10", winner: "" },
   ];
 
   expect(noOfMatchesWonPerTeam(test)).toEqual({
