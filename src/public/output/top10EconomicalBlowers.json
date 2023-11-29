@@ -1,1 +1,12 @@
-[{"player":"RN ten Doeschate","economy":4},{"player":"J Yadav","economy":4.142857142857142},{"player":"V Kohli","economy":5.454545454545454},{"player":"R Ashwin","economy":5.871794871794871},{"player":"S Nadeem","economy":6.142857142857142},{"player":"Parvez Rasool","economy":6.200000000000001},{"player":"MC Henriques","economy":6.56},{"player":"Z Khan","economy":6.5793103448275865},{"player":"M Vijay","economy":7},{"player":"GB Hogg","economy":7.0476190476190474}]
+[
+  "RN ten Doeschate",
+  "J Yadav",
+  "V Kohli",
+  "R Ashwin",
+  "S Nadeem",
+  "Parvez Rasool",
+  "MC Henriques",
+  "Z Khan",
+  "M Vijay",
+  "GB Hogg"
+]
