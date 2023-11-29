@@ -15,7 +15,7 @@ function findRunsAndBallsForSeason(deliveries, yearsAndId) {
       parseInt(delivery.total_runs) - parseInt(delivery.extra_runs);
     let balls = 0;
     if (delivery.wide_runs === "0" && delivery.noball_runs === "0") {
-      balls = parseInt(delivery.ball);
+      balls = 1;
     }
 
     if (acc[season] == undefined) {
