@@ -29,7 +29,7 @@ function findRunsAndBallsForSeason(deliveries, yearsAndId) {
       };
     }
     acc[season][batsman].runs += totalRuns;
-    acc[season][batsman].balls += 1;
+    acc[season][batsman].balls += balls;
 
     return acc;
   }, {});

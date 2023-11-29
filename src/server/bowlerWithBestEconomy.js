@@ -55,7 +55,7 @@ function findBowlerWithBestEconomy(economy) {
   return sortedEconomy[0];
 }
 
-//finding top 10 economical blowers of 2015
+//find Economical bowler
 function findBestEconomicalBlowers(deliveries) {
   const runsAndBalls = findRunsAndBallsInSuperOver(deliveries);
   const calculateEconomy = toCalculateEconomy(runsAndBalls);
