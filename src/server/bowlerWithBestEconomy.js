@@ -43,7 +43,7 @@ function toCalculateEconomy(runsAndBalls) {
   return runsAndBalls;
 }
 
-//sorting find top 10 blower
+//sorting blower
 function findBowlerWithBestEconomy(economy) {
   let sortedEconomy = Object.keys(economy).sort(
     (a, b) => economy[a].economy - economy[b].economy
